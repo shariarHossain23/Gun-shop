@@ -16,6 +16,7 @@ const addTodb = (id) =>{
         shipingGunData[id] = 1;
     }
     localStorage.setItem('gun-cart',JSON.stringify(shipingGunData))
+
 }
 
 const getStoreData = () => {

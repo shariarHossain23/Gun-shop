@@ -36,9 +36,10 @@ function App() {
     
   },[guns])
   const handleCart = (gun) => {
-    const newCart = [...cart,gun]
-    setCart(newCart)
-    addTodb(gun.id)
+      const newCart = [...cart,gun]
+      setCart(newCart)
+      addTodb(gun.id)
+
   }
   const customStyles = {
     content: {
