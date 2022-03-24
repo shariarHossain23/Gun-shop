@@ -1,0 +1,27 @@
+.gun-card {
+  background-color: gainsboro;
+  clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%);
+  position: relative;
+  padding: 20px 0;
+}
+.gun-img {
+  text-align: center;
+  padding: 15px;
+}
+.gun-img img {
+  width: 300px;
+  clip-path: polygon(15% 0%, 100% 0, 100% 86%, 85% 100%, 0 100%, 0% 16%);
+}
+.gun-text {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+.btn-sec {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #33c24d;
+  border: none;
+  padding: 10px;
+}
