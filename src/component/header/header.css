@@ -1,0 +1,29 @@
+.header {
+  padding: 10px 100px;
+  margin-bottom: 50px;
+  box-shadow: 0px 3px 3px rgb(0 0 0 / 45%);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav h1 {
+  color: cadetblue;
+}
+.icon {
+  color: cadetblue;
+  font-size: 30px;
+  position: relative;
+}
+.small-icon {
+  position: absolute;
+  top: 17px;
+  right: 88px;
+  background-color: red;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}

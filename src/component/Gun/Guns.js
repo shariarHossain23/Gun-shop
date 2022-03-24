@@ -1,9 +1,8 @@
 import React from 'react';
 import './gun.css';
 
-const Guns = ({gun}) => {
-    console.log(gun)
-    const {name,img,bullet,price} = gun;
+const Guns = ({gun,handlecart}) => {
+    const {name,img,bullet,price,id} = gun;
     return (
         <div className='gun-card'>
             <div className='gun-img'>
@@ -14,7 +13,7 @@ const Guns = ({gun}) => {
             <p>Bullet:{bullet}</p>
             <p>price:${price}</p>
             </div>
-            <button className='btn-sec'>add to cart</button>
+            <button onClick={() => handlecart(gun)} className='btn-sec'>add to cart</button>
         </div>
     );
 };
